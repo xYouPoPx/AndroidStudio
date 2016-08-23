@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entries_food_list_preference">
+        <item>McDonald\'s Burgers</item>
+        <item>Pizza Hut Pizzas</item>
+        <item>Aunt Polly\'s Veges</item>
+    </string-array>
+
+    <string-array name="entryvalues_food_list_preference">
+        <item>Burger</item>
+        <item>Pizza</item>
+        <item>Veges</item>
+    </string-array>
+
+    <string-array name="entries_transport_list_preference">
+        <item>Your bicycle</item>
+        <item>Your Scooter</item>
+        <item>Your Car</item>
+    </string-array>
+
+    <string-array name="entryvalues_transport_list_preference">
+        <item>Bicycle</item>
+        <item>Scooter</item>
+        <item>Car</item>
+    </string-array>
+
+    <string-array name="empty_array"></string-array>
+
+    <string-array name="default_array">
+        <item>Burger</item>
+        <item>Veges</item>
+    </string-array>
+
+</resources>
+

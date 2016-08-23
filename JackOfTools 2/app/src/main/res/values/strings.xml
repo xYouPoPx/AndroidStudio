@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JackOfTools</string>
+    <string name="title_sensor_detail">Sensor Detail</string>
+	<string name="action_search">Rechercher</string>
+    <string name="action_settings">Picachu</string>
+    <string name="artist">Pokémon</string>
+    <string name="album">Digimon</string>
+</resources>

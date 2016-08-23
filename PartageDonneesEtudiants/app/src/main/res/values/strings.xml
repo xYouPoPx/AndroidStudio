@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PartageDonneesEtudiants</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_test">action_test</string>
+    <string name="title_activity_partage_texte">PartageTexte</string>
+    <string name="send_to">send_to</string>
+</resources>

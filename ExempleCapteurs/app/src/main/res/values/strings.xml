@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ExempleCapteurs</string>
+    <string name="action_settings">Settings</string>
+    <string name="rtv_capteur"></string>
+    <string name="title_activity_capteur">CapteurActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ycourteau/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_b30182403189b9dc129ef356e53f3a031a490362/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="003ebdacd5f75067b8724f92bd5eefa323d870aa">
+        <dex dex="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-gridlayout-v7-23.3.0_da1a68dea809170320c939cd8877783a206dca96/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="86c501df413d91005efeb76f0def6938c0fcf44d">
+        <dex dex="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_62447ef2ef2cf35d0db2c1ef26f698a6067cfde5/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.3.0_558db7ea29b4b3384d2eb93b40db71038fbeeeb8/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_68b68b1de325cd09dd886ea775baa56131c60dd7/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="501d3f8b3733c97110626d08fe9f0d9324aa357d">
+        <dex dex="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0709b86fa834538193abcc44127d3cd8e761d4cb/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Volumes/INFO-MAC03/AndroidStudioProjects/BasicMultitouch/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_d4f52996b178e6874ec75a72acc358f833d3be67/classes.dex" />
+    </item>
+
+</items>

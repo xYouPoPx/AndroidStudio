@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EvaluationFinale</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="title_activity_detecteur_metal">DetecteurMetalActivity</string>
+    <string name="alarm">Alarme</string>
+    <string name="detecteurMetal">Detecteur Metal</string>
+    <string name="alarmToggle">alarmToggle</string>
+    <string name="alarmText">alarmText</string>
+    <string name="title_activity_detecteur_electricite">DetecteurElectriciteActivity</string>
+    <string name="detecteurElectricite">Detecteur Electricite</string>
+    <string name="title_activity_detecteur_son">DetecteurSonActivity</string>
+    <string name="detecteurSons">Detecteur Sons</string>
+    <string name="detecteurSon">Detecteur Sons</string>
+</resources>

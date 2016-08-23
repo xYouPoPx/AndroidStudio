@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detecteurelectrique">Detecteur électrique</string>
+    <string name="title_activity_detecteurson">Detecteur de son</string>
+    <string name="title_activity_detecteurmetal">Detecteur de métal</string>
+</resources>

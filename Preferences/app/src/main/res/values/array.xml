@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="updateInterval">update interval>
+        <item>3sec</item>
+        <item>5 sec</item>
+    </string-array>
+    <string-array name="updateIntervalValues">update interval values</string-array>
+    <string-array name="entries_list_preference">
+        <item>English (US)</item>
+        <item>English (UK)</item>
+        <item>French (France)</item>
+        <item>Spanish (Spain)</item>
+        <item>Italian</item></string-array>
+    <string-array name="entryvalues_list_preference">entryvalues_list_preference</string-array>
+</resources>

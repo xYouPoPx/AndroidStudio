@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pam.ycourteau.example.pambluetooth.BluetoothActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/connect_bluetooth"
+        android:orderInCategory="100"
+        android:title="@string/connect_bluetooth"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_centerInParent="true">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:id="@+id/parent_pref"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Explorer: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/parent_pref_text"
+                android:hint="Show preference value"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/child_pref"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Explorer (Galactic): "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/child_pref_text"
+                android:hint="Show preference value"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/guide_pref"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Guide: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/guide_pref_text"
+                android:hint="Show preference value"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/citizen_pref"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Citizen: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/citizen_pref_text"
+                android:hint="Show preference value"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/transport_pref"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Tansport: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/transport_pref_text"
+                android:hint="Show preference value"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/food_pref"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Food: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/food_pref_text"
+                android:hint="Show preference value"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/name_pref"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Name: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/name_pref_text"
+                android:hint="Show preference value"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/multi_choice_pref"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Multi choice: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/multi_choice_pref_text"
+                android:hint="Show preference value"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

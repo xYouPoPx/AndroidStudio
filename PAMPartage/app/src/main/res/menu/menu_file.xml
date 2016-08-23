@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pam.ycourteau.example.pampartage.FileActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="100"
+        android:title="save"
+        android:icon="@drawable/save24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/open"
+        android:orderInCategory="100"
+        android:title="open"
+        android:icon="@drawable/folder324"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.application.ericjoly.interfacevisuel.HeureActivityFragment"
+    android:background="@drawable/electric">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="50"
+        android:id="@+id/tv"
+        android:textSize="150dp"
+        android:textColor="#51BC3B"
+        android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="125dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/electric"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrez la limite:"
+        android:id="@+id/textView"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:layout_marginRight="161dp"
+        android:autoText="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="138dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="2"
+        android:id="@+id/edtTreshold"
+        android:textColor="#EB1A1A"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginEnd="80dp" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton"
+        android:textSize="40dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginStart="71dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajuster"
+        android:id="@+id/btnTreshold"
+        android:layout_below="@+id/edtTreshold"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:singleLine="true" />
+
+</RelativeLayout>

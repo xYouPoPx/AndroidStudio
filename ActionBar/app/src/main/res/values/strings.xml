@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ActionBar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Parametres</string>
+    <string name="action_search">Recherche</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="title_activity_activity_with_fragment">ActivityWithFragment</string>
+    <string name="title_activity_activity_with_fragment2">ActivityWithFragment2</string>
+    <string name="artist">Artiste</string>
+    <string name="album">Album</string>
+</resources>

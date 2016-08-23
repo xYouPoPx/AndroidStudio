@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="httpschemas.android.comapkresandroid">
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/horloge"
+        android:title="@string/title_activity_detecteurson"
+        android:showAsAction="ifRoom" />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/batterie"
+        android:title="@string/title_activity_detecteurson"
+        android:showAsAction="never" />
+
+
+</menu>

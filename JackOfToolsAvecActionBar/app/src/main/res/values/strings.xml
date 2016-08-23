@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">JackOfTools</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_access_gyroscope">AccessGyroscope</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_gyroscope">Gyroscope</string>
+    <string name="title_activity_orientation">OrientationActivity</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="orientation">Orientation</string>
+
+    <string name="action_settings">Parametres</string>
+    <string name="action_search">Recherche</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">test</string>
+</resources>

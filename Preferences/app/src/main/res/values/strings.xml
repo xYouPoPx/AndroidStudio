@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Preferences</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_list_preference">title_list_preference</string>
+    <string name="summary_list_preference">summary_list_preference</string>
+    <string name="dialog_title_list_preference">dialog_title_list_preference</string>
+    <string name="dialog_based_preferences">dialog_based_preferences</string>
+    <string name="title_edittext_preference">title_edittext_preference</string>
+    <string name="summary_edittext_preference">summary_edittext_preference</string>
+    <string name="dialog_title_edittext_preference">dialog_title_edittext_preference</string>
+    <string name="launch_preferences">launch_preferences</string>
+    <string name="title_fragment_preference">title_fragment_preference</string>
+    <string name="summary_fragment_preference">summary_fragment_preference</string>
+    <string name="title_intent_preference">title_intent_preference</string>
+    <string name="summary_intent_preference">summary_intent_preference</string>
+    <string name="preference_attributes">preference_attributes</string>
+    <string name="title_parent_preference">title_parent_preference</string>
+    <string name="summary_parent_preference">summary_parent_preference</string>
+    <string name="title_child_preference">title_child_preference</string>
+    <string name="summary_child_preference">summary_child_preference</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DayTwentyTwoActivity!</string>
+    <string name="app_name">DayTwentyTwo</string>
+    <string name="test_one">This was our DayFive test.</string>
+    <string name="click_me">Click Me</string>
+</resources>

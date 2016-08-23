@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Laboratoire_1_Fichiers_SQLite</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_file">FileActivity</string>
+    <string name="file_activity">File Activity</string>
+</resources>

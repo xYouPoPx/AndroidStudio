@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionMenuTextColor">#ff000000</color>
+    <color name = "action_settings">#ff3648ff</color>
+    <color name="actionbar_text">#90C3D4</color>
+    <color name="grey_actionbar_background">#959696</color>
+    <color name="grey_text">#959696</color>
+    <color name="tab_underline_selected_color">#1261E0</color>
+    <color name="tab_selected_color">#E09112</color>
+    <color name="tab_background_gradient_start_color">#E012C8</color>
+    <color name="tab_background_gradient_end_color">#1261E0</color>
+    <color name="tab_underline_color">#12E02A</color>
+
+</resources>

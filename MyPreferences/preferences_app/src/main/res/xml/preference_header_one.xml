@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Choose your Galactic transport">
+
+        <ListPreference
+            android:key="transport_preference"
+            android:title="Select Transport"
+            android:summary="Choose your preferred transport"
+            android:entries="@array/entries_transport_list_preference"
+            android:entryValues="@array/entryvalues_transport_list_preference"
+            android:dialogTitle="My Preferred Transport"
+            android:defaultValue="Scooter"/>
+
+    </PreferenceCategory>
+    <PreferenceScreen
+        android:title="Read saved preferences"
+        android:summary="Access the saved preferences">
+
+        <intent
+            android:targetClass="com.example.testprefs.preferences_app.ShowPreferences"
+            android:targetPackage="com.example.testprefs.preferences_app"
+
+            />
+
+    </PreferenceScreen>
+
+</PreferenceScreen>

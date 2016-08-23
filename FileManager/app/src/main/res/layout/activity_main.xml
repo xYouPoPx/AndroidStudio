@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="writeFileToInternalDirectory"
+        android:id="@+id/btnWriteFileToInternalDirectory"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:onClick="writeFileToInternalDirectoryOnClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getTempFile"
+        android:id="@+id/btnGetTempFile"
+        android:layout_below="@+id/btnWriteFileToInternalDirectory"
+        android:layout_centerHorizontal="true"
+        android:onClick="getTempFileOnClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isExternalStorageReadable"
+        android:id="@+id/btnIsExternalStorageReadable"
+        android:onClick="isExternalStorageReadableOnClick"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/btnWriteFileToInternalDirectory"
+        android:layout_alignEnd="@+id/btnWriteFileToInternalDirectory" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isExternalStorageWritable"
+        android:id="@+id/btnIsExternalStorageWritable"
+        android:onClick="isExternalStorageWritableOnClick"
+        android:layout_below="@+id/btnIsExternalStorageReadable"
+        android:layout_alignRight="@+id/btnIsExternalStorageReadable"
+        android:layout_alignEnd="@+id/btnIsExternalStorageReadable" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getAlbumStorageDir"
+        android:id="@+id/btnGetAlbumStorageDir"
+        android:onClick="getAlbumStorageDirOnClick"
+        android:layout_below="@+id/btnIsExternalStorageWritable"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getAlbumStorageDirContext"
+        android:id="@+id/btnGetAlbumStorageDirContext"
+        android:layout_below="@+id/btnGetAlbumStorageDir"
+        android:layout_alignRight="@+id/btnIsExternalStorageWritable"
+        android:layout_alignEnd="@+id/btnIsExternalStorageWritable"
+        android:onClick="getAlbumStorageDirContextOnClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="writeFileToExternalDirectory"
+        android:id="@+id/btnWriteFileToExternalDirectory"
+        android:layout_below="@+id/btnGetAlbumStorageDirContext"
+        android:layout_alignLeft="@+id/btnGetAlbumStorageDirContext"
+        android:layout_alignStart="@+id/btnGetAlbumStorageDirContext"
+        android:onClick="writeFileToExternalDirectoryOnClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="writeFileToExternalDirectoryDocuments"
+        android:id="@+id/btnWriteFileToExternalDirectoryDocuments"
+        android:layout_below="@+id/btnWriteFileToExternalDirectory"
+        android:layout_centerHorizontal="true"
+        android:onClick="writeFileToExternalDirectoryDocumentsOnClick" />
+
+</RelativeLayout>

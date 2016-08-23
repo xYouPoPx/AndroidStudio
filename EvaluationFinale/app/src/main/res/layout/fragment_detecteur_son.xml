@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.ycourteau.evaluationfinale.DetecteurSonActivityFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Treshold:"
+        android:id="@+id/tvTreshold"
+        android:textSize="17dp"
+        android:layout_alignBottom="@+id/edtTreshold"
+        android:layout_toLeftOf="@+id/edtTreshold"
+        android:layout_toStartOf="@+id/edtTreshold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtTreshold"
+        android:autoText="true"
+        android:numeric="integer"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btnTreshold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:id="@+id/btnTreshold"
+        android:layout_alignBottom="@+id/edtTreshold"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton"
+        android:clickable="true"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/edtTreshold"
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:text="Electricite" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
